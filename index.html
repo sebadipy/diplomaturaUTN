@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Sebastián Di Pierro</title>
+    
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .foto {
+            text-align: center;
+        }
+        .foto img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+        .contenido {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+        }
+        .formulario {
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-size: 1em;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #5e4caf;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 15px 20px;
+            font-size: 1.1em;
+        }
+        input[type="submit"]:hover {
+            background-color: #5e4caf;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Sebastián M.Di Pierro</h1>
+    </header>
+    <div class="foto">
+        <img src="refrencia_cv.jpg" alt="Foto de perfil de Sebastián Di Pierro">
+    </div>
+    <div class="contenido">
+        <h2>Edad</h2>
+        <p>48 años</p>
+
+        <h2>Domicilio</h2>
+        <p>Roca 2377 Mar del Plata</p>
+
+        <h2>Estudios Cursados</h2>
+        <p>Bachilletaro</p>
+        <p>Terciario: Analista de sistemas de Computación - Universidad Siglo 21</p>
+        <p>Universitario: Licenciatura en Informática - Universidad Siglo 21</p>
+
+        <h2>Estudios actuales</h2>
+        <p>Diplomatura en programacion web full stack con React JS</p>
+        
+        <h2>Idioma</h2>
+        <p>Inglés intermedio</p>
+
+        
+                
+        <div class="formulario">
+            <h2>Medios de contacto</h2>
+            <p>Cel: 2235406964</p>
+            <p>email: dipierro.sebastian@gmail.com</p>
+            <p>Si querés contactarme conmigo podés completar el siguiente formulario:</a></p>
+
+                <form action="xxxxxx" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="apellido" id="apellido" name="apellido" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
