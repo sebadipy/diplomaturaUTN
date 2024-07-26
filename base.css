@@ -64,11 +64,13 @@ aside {
 
     nav, section, aside {
         float: none;
-        width: auto;
+        width: 100%;
     }
 
     nav {
-        background: #FFCC66;
+		border-bottom:50px solid rgb(92, 129, 87);
+        width: 100%;
+		background: #7066ff;
     }
 
     section {
@@ -76,7 +78,31 @@ aside {
         margin: 0;
     }
 
-    aside {
+	li {
+
+		margin:12px 15px;
+            
+		width: 100px;
+		height:30px;
+		
+		background:#020257;
+		color:#fff;
+		
+		font-family:'Courier New', Courier, monospace;
+		font-weight:900;
+		font-size:10 px;
+		
+		text-align:center;
+		line-height:30px;
+		
+		transition:all 1.3s ease; 
+
+	}
+
+    aside, section {
         background: #D8D8BF;
+		width: 100px;
+		border-bottom:2px solid black ;
+		display: none;
     }
 }
