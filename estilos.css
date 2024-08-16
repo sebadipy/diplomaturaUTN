@@ -1,0 +1,65 @@
+p {
+
+    color: blue;
+    font-style: normal;
+    font-family: calibri;
+    }
+    
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: calibri;
+        background: linear-gradient(to bottom, rgb(0, 217, 255),rgb(235, 236, 241) );
+        box-shadow: 0 0 10px rgb(57, 136, 0);
+        
+        
+    }
+    
+    .contenido {
+        margin: 0 auto;
+        font-style: normal;
+        font-family: calibri;
+    
+    }
+    
+    .label {
+        margin-top: 10px;
+        font-family: calibri;
+        
+    }
+    
+    
+    .input, textarea {
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 1em;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .contacto {
+        background-color: lightblue;
+        color: darkblue;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .foto {
+
+        width: 300px;
+        height: 200px;
+        text-align: center;
+    }
+
+    .foto img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;    
+        }
+
+    .columnas {
+            column-count: 2;
+            column-gap: 30px;
+
+    }
