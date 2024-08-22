@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+
+        const tamanio = parseInt(prompt('Ingrese el tamaño del array a utilizar:', ''));
+        const numeros = [];
+        let inicial = 0;
+
+
+        for (let f = 1; f <= tamanio; f++) {
+            numeros[f] = parseInt(prompt(`Ingrese el número ${f}:`));
+
+        }
+        document.write("Los números ingresados en el array son:" + numeros + " ");
+
+        for (let n = 1; n <= tamanio; n++) {
+
+            if (parseInt(numeros[n]) >= inicial) {
+                inicial = numeros[n];
+                console.log(inicial);
+            }
+
+        }
+
+        document.write("// El valor mayor ingresado es: " + inicial + " ");
+    </script>
+
+
+
+
+</body>
+
+</html>

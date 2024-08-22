@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+/*
+Crear el código que dada una distancia determine el medio de transporte apropiado de acuerdo a las siguientes reglas:
+
+0 a 1000 metros = pie
+
+1000 a 10000 metros = bicicleta
+
+10000 a 30000 metros = colectivo
+
+30000 a 100000 metros = auto
+
++100000 = avion
+
+
+*/
+
+const valor=parseInt(prompt('Ingrese una distancia para determinar el tipo de transporte a utilizar:', ''));
+  
+  
+    if (valor > 0 && valor < 1000){
+        document.write('Tipo de transporte es PIE');
+    } else if (valor >= 1000 && valor < 10000){
+        document.write('Tipo de transporte es BIBICLETA');
+    } else if (valor >= 10000 && valor < 30000){
+        document.write('Tipo de transporte es COLECTIVO');
+    } else if (valor >= 30000 && valor < 100000){
+        document.write('Tipo de transporte es AUTO');
+    };  
+    
+    
+
+
+</script>
+
+
+
+
+</body>
+</html>
