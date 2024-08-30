@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1_M3U4.css">
+</head>
+<body>
+    <h1>Ejercicio 1 - Colores primarios</h1>
+    <div class="contenedor">
+        <div class="item1" onclick="colorfondo('red')">ROJO</div>
+        <div class="item2" onclick="colorfondo('blue')">AZUL</div>
+        <div class="item3" onclick="colorfondo('green')">VERDE</div>
+    </div>
+
+    <script>
+        function colorfondo(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

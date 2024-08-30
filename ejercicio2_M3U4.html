@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Ejercicio 2 - Contador en TEXTAREA</h1>
+    <h2>Textarea con Botón</h2>
+
+    
+    <textarea id="textarea" rows="10" cols="50" placeholder="ingresar caracteres"></textarea>
+    <br>
+
+    <button onclick="mostrarTexto()">Presiona el boton para el resultado final por consola</button>
+
+    <script>
+        function mostrarTexto() {
+            var texto = document.getElementById('textarea').value; 
+            var resultado = texto.length;  
+            
+            console.log("TOTAL DE CARACTERES: " + resultado);
+        }
+    </script>
+
+
+</body>
+
+</html>
